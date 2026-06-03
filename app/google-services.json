@@ -1,0 +1,18 @@
+{
+  "_comment": "REPLACE THIS FILE with your real google-services.json from Firebase Console",
+  "project_info": {
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "vidyarthi-bus",
+    "storage_bucket": "vidyarthi-bus.appspot.com"
+  },
+  "client": [{
+    "client_info": {
+      "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:REPLACE",
+      "android_client_info": { "package_name": "com.vidyarthi.bus" }
+    },
+    "oauth_client": [],
+    "api_key": [{ "current_key": "YOUR_API_KEY_HERE" }],
+    "services": { "appinvite_service": { "other_platform_oauth_client": [] } }
+  }],
+  "configuration_version": "1"
+}

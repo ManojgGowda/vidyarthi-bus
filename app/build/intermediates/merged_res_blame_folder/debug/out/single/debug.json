@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/anim_none.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/anim/none.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/anim_slide_in_right.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/layout_activity_alternatives.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/layout/activity_alternatives.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_progress_crowd.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/progress_crowd.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_info_chip.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_info_chip.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_dot_next.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/dot_next.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/layout_item_stop.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/layout/item_stop.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_pill_green.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_pill_green.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/anim_slide_in_up.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/anim/slide_in_up.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/layout_item_route.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/layout/item_route.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/layout_activity_splash.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/anim_fade_out.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/layout_activity_detail.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_green_button.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_green_button.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/anim_fade_in.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/layout_activity_main.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_pill_amber.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_pill_amber.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_pill.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_pill.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_ic_cycle.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/ic_cycle.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_saffron_button.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_saffron_button.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/layout_activity_crowd_detail.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/layout/activity_crowd_detail.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/menu_menu_main.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_route_icon.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_route_icon.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_ic_bus.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/ic_bus.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/layout_activity_report.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/layout/activity_report.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_dot_current.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/dot_current.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_progress_amber.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_progress_amber.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_alt_icon.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_alt_icon.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/anim_slide_out_down.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/anim/slide_out_down.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_progress_red.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_progress_red.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/anim_slide_out_left.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/layout_item_alternative.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/layout/item_alternative.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_progress_green.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_progress_green.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_pill_red.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_pill_red.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_dot_done.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/dot_done.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_ic_auto.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/ic_auto.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/drawable_bg_card.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.vidyarthi.bus.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.vidyarthi.bus.app-main-47:/mipmap-xxxhdpi/ic_launcher.xml"
+    }
+]

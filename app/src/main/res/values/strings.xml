@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vidyarthi-Bus</string>
+    <string name="select_route">Select Your Route</string>
+    <string name="crowd_meter">Crowd Meter</string>
+    <string name="report_status">Report Crowd Status</string>
+    <string name="alternatives">Alternative Transport</string>
+    <string name="live">LIVE</string>
+    <string name="submit_report">Submit Report</string>
+    <string name="report_expires">Reports auto-expire in 15 minutes</string>
+    <string name="reports_expire">Reports expire in 15 mins</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="paper">#1A1410</color>
+    <color name="card_bg">#252016</color>
+    <color name="border">#3A3028</color>
+    <color name="ink">#F5EFE8</color>
+    <color name="ink2">#C8BEB0</color>
+    <color name="ink3">#7A6C60</color>
+    <color name="crowd_green_bg">#0D2E1A</color>
+    <color name="crowd_amber_bg">#2E1F00</color>
+    <color name="crowd_red_bg">#2E0F0E</color>
+    <color name="blue_light">#0D1F3F</color>
+    <color name="saffron_light">#2E1A0A</color>
+</resources>

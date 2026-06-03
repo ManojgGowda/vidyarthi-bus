@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/saffron"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <TextView
+            android:id="@+id/tv_route_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/saffron"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="20dp"
+            android:textColor="#CCFFFFFF"
+            android:textSize="13sp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Crowd Meter Card -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="-16dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <!-- Top row: label + status text -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_marginBottom="10dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Crowd Meter"
+                                android:textColor="@color/ink3"
+                                android:textSize="12sp" />
+
+                            <!-- Colour indicator dot -->
+                            <View
+                                android:id="@+id/view_crowd_indicator"
+                                android:layout_width="12dp"
+                                android:layout_height="12dp"
+                                android:background="@drawable/dot_current"
+                                android:layout_marginEnd="6dp" />
+
+                            <TextView
+                                android:id="@+id/tv_crowd_label"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Seats Available"
+                                android:textColor="@color/green"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <!-- Progress Bar -->
+                        <ProgressBar
+                            android:id="@+id/progress_crowd"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:max="100"
+                            android:progress="30"
+                            android:progressDrawable="@drawable/progress_crowd"
+                            android:progressTint="@color/green" />
+
+                        <!-- Bar labels -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="6dp">
+                            <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                                android:layout_weight="1" android:text="Empty"
+                                android:textColor="@color/ink3" android:textSize="11sp" />
+                            <TextView
+                                android:id="@+id/tv_seats_info"
+                                android:layout_width="0dp" android:layout_height="wrap_content"
+                                android:layout_weight="2" android:gravity="center"
+                                android:textColor="@color/ink2" android:textSize="11sp"
+                                android:text="Plenty of seats" />
+                            <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                                android:layout_weight="1" android:text="Full"
+                                android:textColor="@color/ink3" android:textSize="11sp"
+                                android:gravity="end" />
+                        </LinearLayout>
+
+                        <!-- Report count -->
+                        <TextView
+                            android:id="@+id/tv_report_count"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/bg_info_chip"
+                            android:padding="8dp"
+                            android:text="No reports yet — be the first!"
+                            android:textColor="@color/ink2"
+                            android:textSize="12sp"
+                            android:gravity="center" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Bus Stop Timeline -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="BUS POSITION"
+                    android:textColor="@color/ink3"
+                    android:textSize="11sp"
+                    android:letterSpacing="0.08" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_stops"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:nestedScrollingEnabled="false" />
+
+                <View android:layout_width="match_parent" android:layout_height="80dp" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+    <!-- FAB -->
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="16dp"
+        android:text="Report Crowd Status"
+        app:icon="@android:drawable/ic_menu_send"
+        android:backgroundTint="@color/saffron"
+        android:textColor="@color/white"
+        app:iconTint="@color/white" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

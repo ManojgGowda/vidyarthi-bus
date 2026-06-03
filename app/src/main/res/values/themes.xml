@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.VidyarthiBus" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/saffron</item>
+        <item name="colorPrimaryVariant">@color/saffron_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/green</item>
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:statusBarColor">@color/saffron_dark</item>
+    </style>
+    <style name="Theme.VidyarthiBus.Splash" parent="Theme.VidyarthiBus">
+        <item name="android:windowBackground">@color/saffron</item>
+    </style>
+    <style name="Theme.VidyarthiBus.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/saffron</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+</resources>
